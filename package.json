@@ -11,6 +11,7 @@
     "@types/node": "^16.11.58",
     "@types/react": "^18.0.18",
     "@types/react-dom": "^18.0.6",
+    "docz": "^2.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -24,7 +25,11 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "styleguide": "npx styleguidist server",
+    "docz dev": "docz dev",
+    "docz build": "docz build",
+    "docz serve": "docz build && docz serve"
   },
   "eslintConfig": {
     "extends": [
@@ -70,6 +75,7 @@
     "eslint": "8.22",
     "jest": "^27.5.1",
     "prop-types": "^15.8.1",
+    "react-docgen-typescript": "^2.2.2",
     "react-styleguidist": "^12.0.0",
     "webpack": "^5.74.0"
   }

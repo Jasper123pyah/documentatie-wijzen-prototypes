@@ -15,7 +15,7 @@ The page will reload if you make edits.
 
 In the project directory, you can run:
 
-### `npx styleguidist server`
+### `npm run styleguide`
 
 Runs the documentation in Development mode.
 Open [http://localhost:6060](http://localhost:6060) to view it in the browser.
