@@ -19,3 +19,12 @@ In the project directory, you can run:
 
 Runs the documentation in Development mode.
 Open [http://localhost:6060](http://localhost:6060) to view it in the browser.
+
+## Docz
+
+In the project directory, you can run:
+
+### `npm run docz-dev`
+
+Runs the documentation in Development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
