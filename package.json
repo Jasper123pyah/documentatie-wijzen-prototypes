@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/core": "^10.1.1",
     "@storybook/addon-docs": "^6.5.10",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -12,6 +13,7 @@
     "@types/react": "^18.0.18",
     "@types/react-dom": "^18.0.6",
     "docz": "^2.4.0",
+    "node-fetch": "2.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -27,9 +29,9 @@
     "build-storybook": "build-storybook -s public",
     "test-storybook": "test-storybook",
     "styleguide": "npx styleguidist server",
-    "docz dev": "docz dev",
-    "docz build": "docz build",
-    "docz serve": "docz build && docz serve"
+    "docz-dev": "docz dev",
+    "docz-build": "docz build",
+    "docz-serve": "docz build && docz serve"
   },
   "eslintConfig": {
     "extends": [
@@ -72,11 +74,12 @@
     "@storybook/test-runner": "^0.7.1",
     "@storybook/testing-library": "^0.0.13",
     "babel-plugin-named-exports-order": "^0.0.2",
-    "eslint": "8.22",
+    "eslint": "6.2.0",
     "jest": "^27.5.1",
     "prop-types": "^15.8.1",
     "react-docgen-typescript": "^2.2.2",
     "react-styleguidist": "^12.0.0",
+    "remark-mdx": "^2.0.0-next.9",
     "webpack": "^5.74.0"
   }
 }
